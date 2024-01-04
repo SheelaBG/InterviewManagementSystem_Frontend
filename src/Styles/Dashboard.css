@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Poppins&display=swap');
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'poppins',sans-serif;
+}
+
+.dashBoard{
+    height: 100vh;
+    width: 100vw;
+   padding: 50px;
+   background-color:#e7eff6;
+}
+.jobs-list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+   
+} 
+
+.jobs-list div h2{
+    margin-bottom: 20px;
+    font-size: 1.8rem;
+    font-weight: 500;
+  }
+
+  .jobs-list div{
+    background:#696969;
+    color: #fff;
+    height: 420px;
+    width: 380px;
+    padding: 40px;
+    margin: 0px 40px;
+    border-radius: 10px;
+    transition: background 0.5s, transform 0.5s;
+  }
+  .jobs-list div p{
+    font-size: 0.9rem;
+  }
+
+  .jobs-list div a{
+    color:#2a4d69;
+    height: 30px;
+    width: 60px;
+    background-color: #e7eff6;
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: 600;
+    margin-top: 10px;
+    display: inline-block;
+    border-radius:7px;
+    padding: 7px;
+
+  }
+
+  .jobs-list div:hover
+    {
+    background: #2a4d69;
+    transform: translateY(-10px);
+    }
+
+.subTitle{
+    color: #2a4d69;
+    
+}

@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Poppins&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.Section form {
+    margin: auto;
+    margin-top: 40px;
+}
+.form form{
+    background-color: #adcbe3;
+    height: auto;
+    width: 380px;
+    border-radius: 7px;
+    padding:30px 40px;
+    box-shadow: 8px 8px 18px black;
+}
+.form-input{
+    display: flex;
+    flex-direction: column;
+    width: 300px; 
+    border-radius: 10px;
+    
+}
+.form form h1{
+    color: #3e6280;
+    font-size: 25px;
+    font-weight: 600;
+    font-family: 'poppins',sans-serif;
+    text-align: center;
+   
+}
+.form-input input{
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: 1px solid #333;
+    
+}
+label{
+    font-size: 14px;
+    margin-top: 5px;
+    font-weight: 400;
+    margin-bottom: 5px;
+}
+
+.form-input span{
+    color: red;
+    font-size: 12px;
+    display: none;
+    margin-top: 5px;
+}
+
+input:invalid[focused="true"]~span{
+    display: block;
+}

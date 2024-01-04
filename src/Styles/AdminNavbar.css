@@ -1,0 +1,106 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Poppins&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+#admin-nav{
+    background-color:#3c4955;
+    height: 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 80px;
+}
+
+#rightnav{
+ display: flex;
+ align-items: center;
+ justify-content: space-between;
+ 
+}
+.logo{
+    color:#fff;
+    text-decoration: none;
+    font-size: 21px;
+    font-weight: 500;
+}
+.nav-link{
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+    margin: 20px;
+}
+.nav-link-profile
+{
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+    margin: 20px;
+    cursor: pointer;
+}
+.profile{
+   height: 130px;
+   width: 250px;
+   background-color:transparent;
+   border-radius: 7px;
+   padding:20px;
+   position: absolute;
+   right: 0px;
+   top: 80px;
+  
+
+}
+.profile div
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.profile h1{
+    font-size: 25px;
+    color: #3c4955;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.profile #logout
+{
+   margin-right: 10px;
+   border: none;
+   outline: none;
+   font-size: 12px;
+   background-color: #3c4955;
+   padding: 7px;
+   color: #fff;
+   border-radius: 5px;
+
+}
+.profile #logout:hover{
+    background-color: #4c5c6b;
+    transform: scale(1.04);
+    cursor: pointer;
+}
+.profile #delete
+{
+    margin-right: 10px;
+    border: none;
+    outline: none;
+    font-size: 12px;
+    background-color:transparent;
+    border: 1px solid red;
+    padding: 7px;
+    color: red;
+    border-radius: 5px;
+}
+.profile #delete:hover{
+    transform: scale(1.04);
+    cursor: pointer;
+}
+
+
+
+

@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Poppins&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.table{
+
+    height: 100vh;
+    width: 100vw;
+    padding: 40px 20px;
+}
+.table h1{
+    text-align: center;
+    color:#3c4955 ;
+    margin: 20px;
+}
+th{
+    height: 20px;
+    width: auto;
+    padding: 10px;
+}

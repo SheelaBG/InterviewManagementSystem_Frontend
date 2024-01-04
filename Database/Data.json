@@ -1,0 +1,28 @@
+{
+    "jd":[
+            {
+                "id":1,
+                "role":"We’re looking for Web developer",
+                "jobBrief":"We are looking for an outstanding Web Developer to be responsible for the coding, innovative design and layout of our website. Web developer responsibilities include building our website from concept all the way to completion from the bottom up, fashioning everything from the home page to site layout and function.",
+                "exp":"0-2 years of Experience.",
+                "skills":"HTML/CSS,React js,PHP, ASP.NET, Javascript or Ruby on Rails,GitHub. "
+                
+            } ,
+            {
+                "id":2,
+                "role":"We’re looking for Java Full stack developer",
+                "jobBrief":"We are looking for a Full Stack Developer to produce scalable software solutions. You’ll be part of a cross-functional team that’s responsible for the full software development life cycle, from conception to deployment.As a Full Stack Developer, you should be comfortable around both front-end and back-end coding languages, development frameworks and third-party libraries. You should also be a team player with a knack for visual design and utility.",
+                "exp":"0-6 years of Experience.",
+                "skills":"Core Java,JDBC, Hibernate, SpringBoot , HTML5, CSS3,JavaScript,React js,Sql database, GitHub. "
+                
+            } ,
+            {
+                "id":3,
+                "role":"We’re looking for Mern stack developer",
+                "jobBrief":"We are searching for an experienced Senior MERN Stack Developer to lead our development efforts. Your expertise will drive the creation of cutting-edge web applications while mentoring junior developers and contributing to technical strategy.",
+                "exp":"5-8 years of Experience.",
+                "skills":"HTML/CSS, React js, javaScript, Node js, Express js, Sql database, Monogo Db, GitHub. "
+                
+            }       
+         ]
+}

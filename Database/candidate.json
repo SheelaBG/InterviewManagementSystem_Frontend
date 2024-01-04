@@ -1,0 +1,15 @@
+{
+    "cand": [
+      {
+        "id": 1,
+        "firstname": "sheela",
+        "lastname": "g",
+        "dob": "10-06-1996",
+        "degree": "Bsc",
+        "passout": "2017",
+        "percentage": "71",
+        "email": "sheelabg25@gmail.com",
+        "mobileno": 7019346625
+      }
+    ]
+}

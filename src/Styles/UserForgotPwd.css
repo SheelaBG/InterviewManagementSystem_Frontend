@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Poppins&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.user-forgot form  {
+    margin: auto;
+    margin-top:100px ;
+}
+.User-forgot-form form{
+    background-color: #adcbe3;
+    height: auto;
+    width: 350px;
+    border-radius: 7px;
+    padding:30px 40px;
+    display: flex;
+    flex-direction: column; 
+    box-shadow: 8px 8px 18px black;
+}
+.User-forgot-form form h2{
+    color: #3e6280;
+    font-size: 30px;
+    font-weight: 600;
+    font-family: 'poppins',sans-serif;
+    text-align: center;
+   
+}
+.User-forgot-form form input{
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: 1px solid #333;
+    margin: 10px;
+    
+}
+#forgot-btn {
+    width:100%;
+    background-color: #3e6280;
+    color: #fff;
+    padding: 7px; 
+    border: none;
+    outline: none;
+    border-radius: 7px;
+    margin-right: 30px;
+    font-size: 15px;
+    box-shadow: 5px 5px 12px rgb(83, 81, 81);
+    margin:25px 0px 10px 0px;
+
+}
+
+#forgot-btn:hover{
+    background-color: #547896;
+    transform: scale(1.04);
+    cursor: pointer;
+}
+.User-forgot-form form span{
+    color: red;
+    font-size: 12px;
+    display: none;
+    margin-top: 5px;
+}
+
+input:invalid[focused="true"]~span{
+    display: block;
+}
+
+
+             

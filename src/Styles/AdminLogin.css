@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Poppins&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.admin-login form {
+    margin: auto;
+    margin-top:100px ;
+}
+.admin-login-form form{
+    height: auto;
+    width: 350px;
+    border-radius: 7px;
+    padding:30px 40px;
+    display: flex;
+    flex-direction: column; 
+    box-shadow: 8px 8px 18px black;
+}
+.admin-login-form form h1{
+    color: #3c4955;
+    font-size: 30px;
+    font-weight: 600;
+    font-family: 'poppins',sans-serif;
+    text-align: center;
+    margin-bottom: 15px;
+   
+}
+.admin-login-form form input{
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: 1px solid #333;
+    margin-bottom: 10px;
+    
+}
+
+#admin-login-btn {
+    width:100%;
+    background-color: #3c4955;
+    color: #fff;
+    padding: 7px; 
+    border: none;
+    outline: none;
+    border-radius: 7px;
+    margin-right: 30px;
+    font-size: 15px;
+    box-shadow: 5px 5px 12px rgb(83, 81, 81);
+    margin: 15px 0px;
+
+}
+
+#admin-login-btn:hover{
+    background-color: #4c5c6b;
+    transform: scale(1.04);
+    cursor: pointer;
+}
+.admin-login-form p{
+    
+    display: inline-block;
+    text-decoration: none;
+    color: #3c4955;
+    font-size: 14px;
+    margin-top: 5px;
+    margin-right: 10px;
+    
+}
+.admin-login-form a{
+    display: inline-block;
+    text-decoration: none;
+    color: #3c4955;
+    font-size: 14px;
+    margin-top: 5px;
+    font-weight: bold;
+}
+
+             
